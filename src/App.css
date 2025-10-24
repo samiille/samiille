@@ -1,0 +1,67 @@
+body {
+  background: url('https://www.transparenttextures.com/patterns/water-waves.png') repeat;
+  background-color: #87CEEB; /* Light Sky Blue fallback */
+}
+
+.quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.quiz-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-width: 600px;
+  width: 100%;
+}
+
+.question-section h3 {
+  color: #0056b3; /* Darker blue for question text */
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.question-count span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.answer-section .btn {
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.answer-section .btn:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.score-section h2 {
+  color: #28a745; /* Green for success */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.score-section .btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+.score-section .btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
